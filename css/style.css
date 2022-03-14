@@ -1,3 +1,277 @@
+*{
+    margin: 0%;
+    font-family: helvetica, arial, sans-serif;
+}
+/* Barra negra header */
+body header div h5{
+    color: white;
+    display: inline-block;
+    padding: 10px 0px;
+    position: relative;
+    left: 7%;
+    ;
+}
+
+.barraarriba{
+   background-color: black;
+}
+
+.navbarriba{
+    display: inline-block;
+    padding: 10px 0px;
+    position: relative;
+    left: 75%;
+    color: white;
+}
+
+body header div nav span i{
+    font-size: 12px;
+    
+}
+
+body header div nav span{
+    padding: 0px 10px;
+}
+
+/* header barra abajo */
+.barrabajo{
+    height: 62px;
+    background-color:#F0A83E;
+    display: flex;
+    align-items: center;
+    ;
+}
+
+.logobarrabajo{
+    width: 166.38px;
+    height: 23px;
+    padding: 0px 40px;
+}
+
+.barrabajo2{
+    color: white;
+    display: inline-block;
+    padding: 10px 0px;
+    position: relative;
+    left: 60%;
+}
+
+/* Banner con imagenes */
 .banner{
+    height: 409px;
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    left: 37%;
+    top: 25%;
+}
+
+.banner-text h5{
+    background-color: white;
+    border-radius: 5px;
+    font-size:30px;
+    padding: 6px;
+}
+
+.btncome{
+    padding: 20px 10px;
+    background-color: #F0A83E;
+    color: white;
+    border-style: none;
+    border-radius: 7px;
+}
+
+/* Productos destacados */
+.pataG img{
+    height: 71px;
+    width: 67px;
+}
+
+.Prodest{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 230px;
+}
+
+.Prodest h4{
+    font-size: 40px;
+}
+
+.navprod{
+    word-spacing: 20px;
+}
+
+/* tarjetas */
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 265px;
+    heigh: 268px;
+    background-color: #FBFAF6;
+}
+
+.juguete{
+    font-weight: bold;
+}
+
+.precio{
+    color: #F0A83E;
+    padding-bottom: 8px;
+}
+
+/* formulario */
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    
+    
+}
+
+.contactform{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.formu{
+    text-align: center;
+}
+
+.formulario form label input{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:300px;
+	padding:10px 25px;
+	border:1px solid #ffffff;
+	border-radius:10px;
+	background-color:#3C2313;
+	margin:8px 0;
+    
+    
+}
+
+.formulario input::placeholder{
+    color: white;
+}
+
+.btn1{
+    background-color:#8A8787;
+    color:white;
+    width: 110px;
+    height: 34px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:0px;
+}
+
+.btn2{
+    background-color:#F0A83E;
+    color:white;
+    width: 110px;
+    height: 34px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:0px;
+}
+
+/* footer */
+
+.conaranja{
+    background-color:#F0A83E;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+.cor{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 3%;
+}
+
+.conaranja div h4{
+    color:white;
+    display:inline-block;
+}
+
+.labelabajo{
+    position: relative;
+    left: 60%;
+}
+
+.cor img{
+    margin: 0px 10px 0 0;
+}
+
+.labelabajo label input{
+    height: 40px;
+    width: 271px;
+    border-radius: 10px;
+    border: none;
+
+    
+}
+
+.btn3{
+    background-color:#3C2313;
+    color:white;
+    width: 110px;
+    height: 34px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:0px;
+}
+
+/* footer naranja medio */
+
+
+
+.contactanos{
+    background-color: #3C2313;
+}
+
+.texicons{
+    color:white;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* footer negro */
+.headerabajo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 6px;
+    font-size: 10px;
+
 }

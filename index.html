@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Fron Cat&Dog</title>
   </head>
   <body>
     <header>
-        <div>
+        <div class="barraarriba">
           <h5>Grandes ofertas en comederos</h5>
-          <nav>
+          <nav class="navbarriba">
             <span>Español <i class="fa-solid fa-angle-down"></i></span>
             <span>ARG$ <i class="fa-solid fa-angle-down"></i></span>
           </nav>
         </div>
-        <div>
-          <img src="/img/Logo (1).png" alt="logo" />
-          <nav>
+        <div class="barrabajo">
+          <img class="logobarrabajo" src="/img/Logo (1).png" alt="logo" />
+          <nav class="barrabajo2">
             <span><img src="/img/pawprint 2.png" alt="iconpan"> Categorías</span>
             <span><img src="/img/pawprint 2.png" alt="iconpan"> Pets</span>
             <span><img src="/img/pawprint 2.png" alt="iconpan"> Nosotros</span>
@@ -32,19 +32,17 @@
         <div class="banner-text">
           <h5>¡Es un placer tenerte aquí! </h5>
           <span>¡Comederos en descuento!</span>
-          <button>COMEDEROS</button>
+          <button class="btncome">COMEDEROS</button>
         </div>
       </div>
 
         <div class="Prodest"> <!-- producto destacado -->
           <div class="pataG">
-            <i class="fa-light fa-paw"></i>
+            <img src="/img/pawprint 1.png" alt="pataG">
           </div>
             <h4>Productos Destacados</h4>
-          <nav>
-            <span>Comederos</span><span> - </span>
-            <span>Accesorios</span><span> - </span>
-            <span>Comida</span>
+          <nav class="navprod">
+            <span>Comederos   -   Accesorios   -   Comida</span>
           </nav>
         </div>
         <div class="tarjetas"> <!-- caja tarjeta -->
@@ -64,45 +62,66 @@
             <span class="precio">$250</span>
           </div>
         </div>
-
+      
       <div class="formulario"> <!-- Formulario -->
-        <form action="">
+        <h3 class="contactform">Contáctanos</h3>
+        <form class="formu" action="">
           <label for="nombre">
               <input type="text" id="nombre" placeholder="Nombre y Apellido">
           </label>
-          <label for="nombre">
+          <label for="email">
               <input type="text" id="email" placeholder="Ingresá tu correo electrónico">
           </label>
-          <label for="nombre">
+          <label for="tel">
               <input type="text" id="telefono" placeholder="Teléfono">
           </label>
         </form>
-        <button>Resetear</button>
-        <button>Enviar</button>
-      </div>
+          <div>
+            <button class="btn1">Resetear</button>
+            <button class="btn2">Enviar</button>
+          </div>
+      </div>    
     </main>
     <footer>
+    <div class="conaranja">
       <div class="cor"> <!-- 1er footer -->
         <img width="40px" src="/img/enviar-correo 1.png" alt="correo"> 
-        <h4 class="correo">Suscríbete para más novedades</h4>
+        <h4 class="correo"> Suscríbete para más novedades</h4>
       </div>
+      <div class="labelabajo">
+          <label for="email">
+            <input type="text" id="email" placeholder="Ingresá tu correo electrónico">
+          </label>
+          <button class="btn3">Suscribirme</button>
+      </div>
+    </div>
+    <div class="footermarron">
+      
       <div class="contactanos"> <!-- 2do footer -->
-        <div>
+        <img class="logobarrabajo" src="/img/Logo (2).png" alt="logo" />
+        <div class="iconos">
           <img src="/img/Icono.png" alt="localidad">
-          <h4 class="texti">Localidad</h4>
-          <p class="pi">Calle - provincia</p>
+          <div class="texicons">
+            <h4 class="texti">Localidad</h4>
+            <p class="pi">Calle - provincia</p>
+          </div>
         </div>
-        <div>
-          <img src="/img/Icono (1).png" alt="telefono">
-          <h4 class="texti">Teléfono</h4>
-          <p class="pi">Número de teléfono</p>
+        <div class="iconos">
+              <img src="/img/Icono (1).png" alt="telefono">
+            <div class="texicons">
+              <h4 class="texti">Teléfono</h4>
+              <p class="pi">Número de teléfono</p>
+            </div>
         </div>
-        <div>
-          <img src="/img/Icono (2).png" alt=mailz">
-          <h4 class="texti">Correo Electrónico</h4>
-          <p class="pi">Dirección de correo</p>
+        <div class="iconos">
+              <img src="/img/Icono (2).png" alt=mailz">
+            <div class="texicons">
+              <h4 class="texti">Correo Electrónico</h4>
+              <p class="pi">Dirección de correo</p>
+            </div>
         </div>
       </div>
+
       <!-- 3er footer -->
       <h3 class="headerabajo">Todos los derechos reservados Front End</h3>
     </footer>
